@@ -1,0 +1,118 @@
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoría de la Relatividad de Einstein</title>
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: black; /* Fondo negro */
+            font-family: Georgia, serif; /* Fuente Georgia */
+            color: white; /* Texto blanco */
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .tab {
+            flex: 1;
+            padding: 20px;
+            border: 2px solid navy; /* Bordes azul marino */
+            background-color: skyblue; /* Fondo azul cielo */
+            margin: 10px;
+            color: black; /* Letras en color negro */
+        }
+        h1 {
+            border: 2px solid white; /* Bordes gruesos blancos */
+            background-color: white; /* Fondo blanco */
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid white; /* Bordes gruesos blancos */
+        }
+        button {
+            background-color: skyblue;
+            border: 1px solid skyblue;
+            color: white;
+            font-family: Georgia, serif;
+            padding: 5px 10px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Pestaña principal -->
+        
+           <div id="TEORÍA DE LA RELATIVIDAD" class="tab">
+            <h1>TEORÍA DE LA RELATIVIDAD</h1>
+            <img src="C:\Users\arreo\Downloads\OIP (6).jpeg" alt="Albert Einstein">
+            <p>La teoría de la relatividad es una teoría física propuesta por Albert Einstein en el siglo XX.
+                Es una propuesta científica que busca establecer y explicar la relación entre masa, espacio, tiempo y energía. A diferencia de la gravedad como una fuerza, Einstein la consideró una consecuencia inercial causada por la curvatura del espacio-tiempo.
+            </p>
+            <button onclick="mostrarContenido('relatividadGeneral')">Relatividad General</button>
+            <button onclick="mostrarContenido('relatividadEspecial')">Relatividad Especial</button>
+            <button onclick="mostrarContenido('TEORÍA DE LA RELATIVIDAD')">TEORÍA DE LA RELATIVIDAD</button>"
+            <button class="video-button" onclick="mostrarContenido('videoExplicativo')">Video Explicativo</button>
+    </div>
+        </div>
+    
+
+    <div id="videoExplicativo" class="tab" style="display: none;">
+        <h1>Video Explicativo</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cm1CUmJgnUY" frameborder="0" allowfullscreen=""></iframe>
+        <button class="video-button" onclick="mostrarContenido('videoExplicativo')">Video Explicativo</button>
+        <button onclick="mostrarContenido('relatividadGeneral')">Relatividad General</button>
+        <button onclick="mostrarContenido('relatividadEspecial')">Relatividad Especial</button>
+        <button onclick="mostrarContenido('TEORÍA DE LA RELATIVIDAD')">TEORÍA DE LA RELATIVIDAD</button>"
+    </div>
+
+    <!-- Contenido de las pestañas -->
+    <div id="relatividadGeneral" class="tab" style="display: none;">
+        <h1>Relatividad General</h1>
+        <p>Relatividad Especial
+            Los problemas con Maxwell, el interferómetro y la velocidad de la luz obligaron a Einstein a dar una solución a todo ello. Un intento que requería un esfuerzo monumental al alcance de imaginaciones muy especiales, y Einstein se engloba ahí.
+            La Relatividad Especial da respuestas pero veréis que desde Extended Science mostraremos que lo hace de una manera no representativa del mundo real. Vamos a aplicar las bases del conocimiento como punto de inicio para después focalizarlas en toda la Relatividad. O sea, vamos a obtener resultados de forma natural y sorprendentemente sencilla. Será una cadena de sorpresas, con la consecuente incidencia en E= mc2.
+            </p>
+            <p> 
+            Conclusión
+            En definitiva, puedo comentar que nada con lo que me encontrado es sostenible, sino que simplemente es autosustentado con argumentos retóricos carentes de representatividad real.
+            Que junto con el uso del Esquema de Seguimiento Obligatorio como sistema alternativo me hacen pensar que hay más ciencia ahí fuera.
+            Solamente coordinando lógica, física y matemáticas, ignorando el inmenso poder de la retórica, reestudiando los modelos en los que nos basamos y algo más, se puede conseguir algo espectacular y además entendible.
+            Las paradojas y los argumentos extravagantes resulta que no existen en el universo, sólo existen en el papel. Quizás como seres humanos debamos mirarnos a nosotros mismos y nuestra imperfección para solucionar los problemas de la física y dejar de cambiar la física para que coincida con nosotros; quizás mirar las bases de la propia física y los modelos que idealizamos sea suficiente como para reordenarnos y seguir adelante sin las incongruencias con las que nos vamos topando sucesivamente.
+            Con ello veremos que el tiempo no se dilata ni se para, que la velocidad de la luz no supone ningún límite, que los viajes en el tiempo sólo existen en nuestra imaginación, que un gemelo no puede volver más joven que otro después de un viaje y muchas cosas más.
+            Y por supuesto, la ecuación más famosa de la historia, E = m c², se nos cae del mundo real ya que se trata de un desarrollo matemático que sólo se inicia colocando el factor de Lorentz al momento lineal. Y ésta es otra de las inmensas sorpresas; empezamos a cuestionar las energías..</p>
+        <button onclick="mostrarContenido('relatividadGeneral')">Relatividad General</button>
+            <button onclick="mostrarContenido('relatividadEspecial')">Relatividad Especial</button>
+            <button onclick="mostrarContenido('TEORÍA DE LA RELATIVIDAD')">TEORÍA DE LA RELATIVIDAD</button>"
+            <button class="video-button" onclick="mostrarContenido('videoExplicativo')">Video Explicativo</button>
+    </div>
+        <!-- Agrega más contenido aquí -->
+    
+
+    <div id="relatividadEspecial" class="tab" style="display: none;">
+        <h1>Relatividad Especial</h1>
+        <p>Relatividad General
+            Desde 1905, el annus mirabilis para Einstein, pasaron 10 años hasta que pudo incluir la gravitación en su Relatividad. El recelo inicial a la dilatación del tiempo pasó a ser el tema de conversación, incluso fuera del ámbito científico. Cuando Eddington, en 1919, dijo haber comprobado esa curva de la luz, cuando se pudo explicar el avance de la precesión de la órbita de Mercurio, cuando el corrimiento al rojo de Hubble conectaba la expansión del universo, la variación del reloj de Cesio, junto con otras predicciones teóricas deducidas de esta Relatividad General, nunca nada fue igual. Había nacido la Cosmología como ciencia independiente de la Física.
+            El repoker de argumentos básicos te va a sorprender, tanto o más, como lo hizo la Relatividad General en su momento. Vas a ver por ti mismo la “otra perspectiva” que los seres humanos no estamos mirando, para así seguir sosteniendo un big-bang, una expansión del universo, materia y energía oscuras, agujeros negros, espacio curvo, a pesar de la generación de paradojas, extravagancia e incongruencias que tenemos que aceptar a falta de esa otra explicación..</p>
+        <button onclick="mostrarContenido('relatividadGeneral')">Relatividad General</button>
+        <button onclick="mostrarContenido('relatividadEspecial')">Relatividad Especial</button>
+        <button onclick="mostrarContenido('TEORÍA DE LA RELATIVIDAD')">TEORÍA DE LA RELATIVIDAD</button>"
+        <button class="video-button" onclick="mostrarContenido('videoExplicativo')">Video Explicativo</button>
+    </div>
+        <!-- Agrega más contenido aquí -->
+    
+
+    <!-- Script para cambiar entre pestañas -->
+    <script>
+        function mostrarContenido(tabId) {
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.style.display = 'none');
+            document.getElementById(tabId).style.display = 'block';
+        }
+    </script>
+
+</body></html>
